@@ -1,0 +1,14 @@
+D:\projeto-tdd-dotnet\NewTalents\bin\Debug\net8.0\NewTalents.exe
+D:\projeto-tdd-dotnet\NewTalents\bin\Debug\net8.0\NewTalents.deps.json
+D:\projeto-tdd-dotnet\NewTalents\bin\Debug\net8.0\NewTalents.runtimeconfig.json
+D:\projeto-tdd-dotnet\NewTalents\bin\Debug\net8.0\NewTalents.dll
+D:\projeto-tdd-dotnet\NewTalents\bin\Debug\net8.0\NewTalents.pdb
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.GeneratedMSBuildEditorConfig.editorconfig
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.AssemblyInfoInputs.cache
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.AssemblyInfo.cs
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.csproj.CoreCompileInputs.cache
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.dll
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\refint\NewTalents.dll
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.pdb
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\NewTalents.genruntimeconfig.cache
+D:\projeto-tdd-dotnet\NewTalents\obj\Debug\net8.0\ref\NewTalents.dll
