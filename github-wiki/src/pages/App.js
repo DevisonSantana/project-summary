@@ -24,12 +24,17 @@ function App() {
       console.error("Não encontrado");
     }
   }
+  function hanldeRemoveRepo(repoID) {
+    setRepository(repository.filter(
+      repo => repo.id !== repoID
+    ))
+  }
   return (
     <Container>
-      <img src={gitLogo} width={72} height={72} />
+      <img src={gitLogo} width={72} height={72} alt='logo github' />
       <Input value={currentRepository} onChange={(e) => setCurrentRepository(e.target.value)} />
       <Button onClick={handleSearchRepo} />
-      {repository.map(repo => <ItemRepo repository={repo} />)}
+      {repository.map(repo => <ItemRepo removeRepo={hanldeRemoveRepo} repository={repo} />)}
     </Container>
   );
 }
