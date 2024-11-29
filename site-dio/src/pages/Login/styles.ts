@@ -60,7 +60,6 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
-
 export const EsqueciText  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;

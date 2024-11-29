@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "31ae",
+      "name": "Gorete Santana",
+      "email": "gorete@info.com",
+      "password": "gorete"
+    },
+    {
+      "id": "84b3",
+      "name": "Devison Santana",
+      "email": "devison@info.developer",
+      "password": "admin.dev"
+    }
+  ]
+}

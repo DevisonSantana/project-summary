@@ -1,8 +1,17 @@
 import { BuscarInputContainer, Container, Input, Menu, MenuRight, Row, UserPicture, Wrapper } from './styles'
 import logo from '../../assets/logo-dio.png'
 import Button from '../Button';
+import { useNavigate } from 'react-router-dom';
+import { IHeader } from './types';
 
-function Header({auth}) {
+function Header({auth} : IHeader) {
+    const navigate = useNavigate()
+    function handleRegister() {
+        navigate('/register')
+    }
+    function handleSignIn() {
+        navigate('/login')
+    }
     return (
         <Wrapper>
             <Container>
@@ -24,8 +33,8 @@ function Header({auth}) {
                     ) : (
                         <>
                             <MenuRight href='/'>Home</MenuRight>
-                            <Button title='Entrar' />
-                            <Button title='Cadastrar' />
+                            <Button title='Entrar' onClick={handleSignIn}/>
+                            <Button title='Cadastrar' onClick={handleRegister} />
                         </>
 
                     )}
